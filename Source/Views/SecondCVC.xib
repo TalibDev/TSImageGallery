@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ddd-3o-EVn" customClass="SecondCVC" customModule="TSImageGallery" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qdz-rX-gpz">
+                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HE8-Ih-xxn">
+                        <rect key="frame" x="121" y="0.0" width="59" height="59.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uUN-32-0ZN">
+                        <rect key="frame" x="121" y="60.5" width="59" height="59.5"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="HE8-Ih-xxn" firstAttribute="leading" secondItem="Qdz-rX-gpz" secondAttribute="trailing" constant="1" id="0Gc-VN-jl2"/>
+                <constraint firstItem="uUN-32-0ZN" firstAttribute="width" secondItem="HE8-Ih-xxn" secondAttribute="width" id="4Xh-rw-Bu1"/>
+                <constraint firstItem="Qdz-rX-gpz" firstAttribute="top" secondItem="ddd-3o-EVn" secondAttribute="top" id="CQc-I5-WVM"/>
+                <constraint firstItem="uUN-32-0ZN" firstAttribute="top" secondItem="HE8-Ih-xxn" secondAttribute="bottom" constant="1" id="HYa-rb-SOp"/>
+                <constraint firstItem="HE8-Ih-xxn" firstAttribute="top" secondItem="ddd-3o-EVn" secondAttribute="top" id="NNk-gA-Va7"/>
+                <constraint firstAttribute="bottom" secondItem="uUN-32-0ZN" secondAttribute="bottom" id="TXu-Nx-b13"/>
+                <constraint firstAttribute="bottom" secondItem="Qdz-rX-gpz" secondAttribute="bottom" id="VaE-nD-pQL"/>
+                <constraint firstItem="Qdz-rX-gpz" firstAttribute="leading" secondItem="ddd-3o-EVn" secondAttribute="leading" id="ZrP-5p-RUn"/>
+                <constraint firstAttribute="trailing" secondItem="uUN-32-0ZN" secondAttribute="trailing" id="cpd-x4-gLb"/>
+                <constraint firstAttribute="trailing" secondItem="HE8-Ih-xxn" secondAttribute="trailing" id="iJq-yP-uWV"/>
+                <constraint firstItem="uUN-32-0ZN" firstAttribute="leading" secondItem="Qdz-rX-gpz" secondAttribute="trailing" constant="1" id="iOb-Gq-hqY"/>
+                <constraint firstItem="uUN-32-0ZN" firstAttribute="height" secondItem="HE8-Ih-xxn" secondAttribute="height" id="j2D-Ee-n97"/>
+                <constraint firstItem="Qdz-rX-gpz" firstAttribute="width" secondItem="ddd-3o-EVn" secondAttribute="width" multiplier="2:3" id="shI-az-Kty"/>
+            </constraints>
+            <size key="customSize" width="295" height="179"/>
+            <connections>
+                <outlet property="img1" destination="Qdz-rX-gpz" id="Tsx-Je-U9X"/>
+                <outlet property="img2" destination="HE8-Ih-xxn" id="Hnz-xF-CS0"/>
+                <outlet property="img3" destination="uUN-32-0ZN" id="kT9-yg-2MD"/>
+            </connections>
+            <point key="canvasLocation" x="126.81159420289856" y="11.049107142857142"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="e63-I3-Cq5" customClass="ThirdCVC" customModule="TSImageGallery" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="U8A-xo-EOr">
+                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="59.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QTJ-f8-vrC">
+                        <rect key="frame" x="60.5" y="0.0" width="59" height="59.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UUp-co-cfx">
+                        <rect key="frame" x="120.5" y="0.0" width="59.5" height="59.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L8B-od-XB7">
+                        <rect key="frame" x="0.0" y="60.5" width="59.5" height="59.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lv7-OO-SGs">
+                        <rect key="frame" x="60.5" y="60.5" width="59" height="59.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yr9-nS-PhD">
+                        <rect key="frame" x="120.5" y="60.5" width="59.5" height="59.5"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Yr9-nS-PhD" firstAttribute="leading" secondItem="Lv7-OO-SGs" secondAttribute="trailing" constant="1" id="3tg-Xe-yxM"/>
+                <constraint firstItem="L8B-od-XB7" firstAttribute="height" secondItem="U8A-xo-EOr" secondAttribute="height" id="3yQ-sl-Klo"/>
+                <constraint firstItem="U8A-xo-EOr" firstAttribute="top" secondItem="e63-I3-Cq5" secondAttribute="top" id="4rG-ns-f6l"/>
+                <constraint firstItem="L8B-od-XB7" firstAttribute="leading" secondItem="e63-I3-Cq5" secondAttribute="leading" id="CVL-Z2-RVS"/>
+                <constraint firstItem="Lv7-OO-SGs" firstAttribute="width" secondItem="U8A-xo-EOr" secondAttribute="width" id="Cdp-fh-cMv"/>
+                <constraint firstItem="Lv7-OO-SGs" firstAttribute="top" secondItem="QTJ-f8-vrC" secondAttribute="bottom" constant="1" id="GSi-9Y-QUe"/>
+                <constraint firstItem="QTJ-f8-vrC" firstAttribute="height" secondItem="U8A-xo-EOr" secondAttribute="height" id="Hlj-a5-fVu"/>
+                <constraint firstItem="Yr9-nS-PhD" firstAttribute="width" secondItem="U8A-xo-EOr" secondAttribute="width" id="HsQ-Xb-i0G"/>
+                <constraint firstItem="UUp-co-cfx" firstAttribute="height" secondItem="U8A-xo-EOr" secondAttribute="height" id="IQe-Ys-bCE"/>
+                <constraint firstItem="QTJ-f8-vrC" firstAttribute="top" secondItem="e63-I3-Cq5" secondAttribute="top" id="Kkp-u7-ED0"/>
+                <constraint firstItem="L8B-od-XB7" firstAttribute="top" secondItem="U8A-xo-EOr" secondAttribute="bottom" constant="1" id="RVv-c1-pTC"/>
+                <constraint firstItem="QTJ-f8-vrC" firstAttribute="width" secondItem="U8A-xo-EOr" secondAttribute="width" id="b5N-my-zrD"/>
+                <constraint firstItem="QTJ-f8-vrC" firstAttribute="leading" secondItem="U8A-xo-EOr" secondAttribute="trailing" constant="1" id="bou-8a-CN0"/>
+                <constraint firstAttribute="bottom" secondItem="Lv7-OO-SGs" secondAttribute="bottom" id="cbo-Uw-tp9"/>
+                <constraint firstItem="UUp-co-cfx" firstAttribute="top" secondItem="e63-I3-Cq5" secondAttribute="top" id="gUW-kM-p9p"/>
+                <constraint firstItem="U8A-xo-EOr" firstAttribute="leading" secondItem="e63-I3-Cq5" secondAttribute="leading" id="iaF-rH-1CA"/>
+                <constraint firstItem="L8B-od-XB7" firstAttribute="width" secondItem="U8A-xo-EOr" secondAttribute="width" id="jfg-dW-Oem"/>
+                <constraint firstAttribute="bottom" secondItem="Yr9-nS-PhD" secondAttribute="bottom" id="jxA-A5-QCv"/>
+                <constraint firstAttribute="trailing" secondItem="UUp-co-cfx" secondAttribute="trailing" id="peI-Il-Nie"/>
+                <constraint firstItem="Lv7-OO-SGs" firstAttribute="height" secondItem="U8A-xo-EOr" secondAttribute="height" id="s9K-Jt-dhG"/>
+                <constraint firstItem="UUp-co-cfx" firstAttribute="leading" secondItem="QTJ-f8-vrC" secondAttribute="trailing" constant="1" id="tG2-hq-yZR"/>
+                <constraint firstItem="Yr9-nS-PhD" firstAttribute="top" secondItem="UUp-co-cfx" secondAttribute="bottom" constant="1" id="vWf-GT-gF7"/>
+                <constraint firstItem="UUp-co-cfx" firstAttribute="width" secondItem="U8A-xo-EOr" secondAttribute="width" id="wCS-Wb-X6Y"/>
+                <constraint firstItem="Yr9-nS-PhD" firstAttribute="height" secondItem="U8A-xo-EOr" secondAttribute="height" id="wfn-to-uAJ"/>
+                <constraint firstItem="Lv7-OO-SGs" firstAttribute="leading" secondItem="L8B-od-XB7" secondAttribute="trailing" constant="1" id="wiH-sR-Z1u"/>
+                <constraint firstAttribute="trailing" secondItem="Yr9-nS-PhD" secondAttribute="trailing" id="x84-kb-qWM"/>
+                <constraint firstAttribute="bottom" secondItem="L8B-od-XB7" secondAttribute="bottom" id="zH2-kr-U0N"/>
+            </constraints>
+            <size key="customSize" width="295" height="179"/>
+            <connections>
+                <outlet property="img1" destination="U8A-xo-EOr" id="ZVG-EH-eY8"/>
+                <outlet property="img2" destination="QTJ-f8-vrC" id="EEL-W4-X4v"/>
+                <outlet property="img3" destination="UUp-co-cfx" id="1tm-US-jvZ"/>
+                <outlet property="img4" destination="L8B-od-XB7" id="3PG-hA-uth"/>
+                <outlet property="img5" destination="Lv7-OO-SGs" id="ERn-d1-ayw"/>
+                <outlet property="img6" destination="Yr9-nS-PhD" id="ERj-e1-pwG"/>
+            </connections>
+            <point key="canvasLocation" x="126.81159420289856" y="11.049107142857142"/>
+        </collectionViewCell>
+    </objects>
+</document>

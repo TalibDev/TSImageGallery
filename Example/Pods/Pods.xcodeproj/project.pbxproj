@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		037E8D737360834CC60306CE52456481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2A23822AEBC7E343FFB1AA96358ED18E /* Pods-TSImageGallery_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B252882ED15A713F668AF495B4004 /* Pods-TSImageGallery_Tests-dummy.m */; };
+		3EB6FA17249F2386008D49C4 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6FA11249F2385008D49C4 /* Protocol.swift */; };
+		3EB6FA18249F2386008D49C4 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6FA12249F2385008D49C4 /* GalleryViewController.swift */; };
+		3EB6FA19249F2386008D49C4 /* UIImageView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6FA13249F2385008D49C4 /* UIImageView_Extensions.swift */; };
+		3EB6FA1A249F2386008D49C4 /* UIView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6FA14249F2386008D49C4 /* UIView_Extensions.swift */; };
+		3EB6FA1B249F2386008D49C4 /* ImageViewerTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6FA15249F2386008D49C4 /* ImageViewerTheme.swift */; };
+		3EB6FA1C249F2386008D49C4 /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6FA16249F2386008D49C4 /* ImageItem.swift */; };
+		3EB6FA23249F2396008D49C4 /* FirstCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB6FA1D249F2395008D49C4 /* FirstCVC.xib */; };
+		3EB6FA24249F2396008D49C4 /* SecondCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB6FA1E249F2395008D49C4 /* SecondCVC.xib */; };
+		3EB6FA25249F2396008D49C4 /* ThirdCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6FA1F249F2395008D49C4 /* ThirdCVC.swift */; };
+		3EB6FA26249F2396008D49C4 /* ThirdCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB6FA20249F2396008D49C4 /* ThirdCVC.xib */; };
+		3EB6FA27249F2396008D49C4 /* SecondCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6FA21249F2396008D49C4 /* SecondCVC.swift */; };
+		3EB6FA28249F2396008D49C4 /* FirstCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6FA22249F2396008D49C4 /* FirstCVC.swift */; };
 		54B84D6D1D0E506988CF011A8F141234 /* TSImageGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD877997B4A1F549ACED25C80A4AA2D /* TSImageGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BAB0F196EBD12A5DCCF0265BEDE835D /* TSImageGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5179DF968FA262CC3AE5384A4CE39439 /* TSImageGallery-dummy.m */; };
 		84BC728AA76927F7A1C832754DB9AE26 /* Pods-TSImageGallery_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58BC1BB5FC443866A1323A00D7D43B /* Pods-TSImageGallery_Example-dummy.m */; };
@@ -44,6 +56,18 @@
 		1D3BCC072CE06D339B3526C37EE04713 /* Pods-TSImageGallery_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSImageGallery_Example-umbrella.h"; sourceTree = "<group>"; };
 		22D3F998B67E9C132168FD54BF97959C /* Pods-TSImageGallery_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSImageGallery_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EB6FA11249F2385008D49C4 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		3EB6FA12249F2385008D49C4 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		3EB6FA13249F2385008D49C4 /* UIImageView_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView_Extensions.swift; sourceTree = "<group>"; };
+		3EB6FA14249F2386008D49C4 /* UIView_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_Extensions.swift; sourceTree = "<group>"; };
+		3EB6FA15249F2386008D49C4 /* ImageViewerTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerTheme.swift; sourceTree = "<group>"; };
+		3EB6FA16249F2386008D49C4 /* ImageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
+		3EB6FA1D249F2395008D49C4 /* FirstCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstCVC.xib; sourceTree = "<group>"; };
+		3EB6FA1E249F2395008D49C4 /* SecondCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondCVC.xib; sourceTree = "<group>"; };
+		3EB6FA1F249F2395008D49C4 /* ThirdCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdCVC.swift; sourceTree = "<group>"; };
+		3EB6FA20249F2396008D49C4 /* ThirdCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdCVC.xib; sourceTree = "<group>"; };
+		3EB6FA21249F2396008D49C4 /* SecondCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCVC.swift; sourceTree = "<group>"; };
+		3EB6FA22249F2396008D49C4 /* FirstCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCVC.swift; sourceTree = "<group>"; };
 		3F249762EF96222DF6F1439E49DBAFAA /* Pods-TSImageGallery_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSImageGallery_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		43F46E20927CBB666F84D2D838F9C1AA /* Pods-TSImageGallery_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSImageGallery_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C7B7BA6A0F7FF4C1D7FA8D1912F1584 /* Pods-TSImageGallery_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSImageGallery_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -120,6 +144,41 @@
 				B6665AF1B5199C4C47A50A5D316B67A0 /* Pods-TSImageGallery_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3EB6FA0E249F2326008D49C4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3EB6FA10249F2352008D49C4 /* Views */,
+				3EB6FA0F249F234B008D49C4 /* Classes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3EB6FA0F249F234B008D49C4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3EB6FA12249F2385008D49C4 /* GalleryViewController.swift */,
+				3EB6FA16249F2386008D49C4 /* ImageItem.swift */,
+				3EB6FA15249F2386008D49C4 /* ImageViewerTheme.swift */,
+				3EB6FA11249F2385008D49C4 /* Protocol.swift */,
+				3EB6FA13249F2385008D49C4 /* UIImageView_Extensions.swift */,
+				3EB6FA14249F2386008D49C4 /* UIView_Extensions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3EB6FA10249F2352008D49C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3EB6FA22249F2396008D49C4 /* FirstCVC.swift */,
+				3EB6FA1D249F2395008D49C4 /* FirstCVC.xib */,
+				3EB6FA21249F2396008D49C4 /* SecondCVC.swift */,
+				3EB6FA1E249F2395008D49C4 /* SecondCVC.xib */,
+				3EB6FA1F249F2395008D49C4 /* ThirdCVC.swift */,
+				3EB6FA20249F2396008D49C4 /* ThirdCVC.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		4DB400AAC62BF40FAA77FED882F75317 /* Development Pods */ = {
@@ -213,6 +272,7 @@
 		EF01DA791DA79CEAFD7BCE9194FC3F75 /* TSImageGallery */ = {
 			isa = PBXGroup;
 			children = (
+				3EB6FA0E249F2326008D49C4 /* Source */,
 				D1CA62A2B2FC91CD8297C13D255F852E /* Pod */,
 				134E718106BBBB22BE906B09376B1670 /* Support Files */,
 			);
@@ -314,6 +374,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					AE6E3E7C63E9985418A223E24DBA18F0 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -347,6 +412,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EB6FA24249F2396008D49C4 /* SecondCVC.xib in Resources */,
+				3EB6FA23249F2396008D49C4 /* FirstCVC.xib in Resources */,
+				3EB6FA26249F2396008D49C4 /* ThirdCVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +432,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EB6FA25249F2396008D49C4 /* ThirdCVC.swift in Sources */,
+				3EB6FA18249F2386008D49C4 /* GalleryViewController.swift in Sources */,
+				3EB6FA1B249F2386008D49C4 /* ImageViewerTheme.swift in Sources */,
 				5BAB0F196EBD12A5DCCF0265BEDE835D /* TSImageGallery-dummy.m in Sources */,
+				3EB6FA1A249F2386008D49C4 /* UIView_Extensions.swift in Sources */,
+				3EB6FA19249F2386008D49C4 /* UIImageView_Extensions.swift in Sources */,
+				3EB6FA27249F2396008D49C4 /* SecondCVC.swift in Sources */,
+				3EB6FA1C249F2386008D49C4 /* ImageItem.swift in Sources */,
+				3EB6FA17249F2386008D49C4 /* Protocol.swift in Sources */,
+				3EB6FA28249F2396008D49C4 /* FirstCVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 143DDF1C2D4F1855368714A37D5F8DC8 /* TSImageGallery.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -426,6 +504,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -437,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 711A716B5F5415B20F3A1D69CC9A4289 /* TSImageGallery.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
