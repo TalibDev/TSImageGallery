@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TSImageGallery_Example' do
+  pod 'TSImageGallery', :path => '../'
+
+  target 'TSImageGallery_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
