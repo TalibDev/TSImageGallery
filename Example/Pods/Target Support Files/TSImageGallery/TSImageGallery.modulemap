@@ -1,0 +1,6 @@
+framework module TSImageGallery {
+  umbrella header "TSImageGallery-umbrella.h"
+
+  export *
+  module * { export * }
+}

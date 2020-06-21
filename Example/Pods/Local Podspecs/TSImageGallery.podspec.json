@@ -1,0 +1,22 @@
+{
+  "name": "TSImageGallery",
+  "version": "0.1.0",
+  "summary": "A short description of TSImageGallery.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Talib Shabbir Hussain/TSImageGallery",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Talib Shabbir Hussain": "talib.shabbir.hussain@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Talib Shabbir Hussain/TSImageGallery.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TSImageGallery/Classes/**/*"
+}
