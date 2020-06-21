@@ -25,12 +25,12 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Talib Shabbir Hussain' => 'talib.shabbir.hussain@gmail.com' }
-  s.source           = { :git => 'https://github.com/Talib Shabbir Hussain/TSImageGallery.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TalibDev/TSImageGallery.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'TSImageGallery/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   
   # s.resource_bundles = {
   #   'TSImageGallery' => ['TSImageGallery/Assets/*.png']
