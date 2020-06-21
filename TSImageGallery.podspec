@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 'This includes images to be picked from Photo Library, URL and Assets, design is copied from Instagram\'s look and feel'
                        DESC
 
-  s.homepage         = 'https://github.com/TalibDev/TSImageGallery'
+  s.homepage         = 'https://github.com/TalibDev/TSImageGallery' 
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Talib Shabbir Hussain' => 'talib.shabbir.hussain@gmail.com' }
